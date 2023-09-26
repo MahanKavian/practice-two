@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+<button class="open-modal" data-modal-id="modalOne">
+    Open Modal
+</button>
+<button class="open-modal" data-modal-id="modalTwo">
+    Open Modal
+</button>
+<div class="modal" id="modalOne">
+    <div class="modal__box">
+        <div class="modal__header">
+            <span class="modal__title">
+                Modal One
+            </span>
+            <i class="fa-solid fa-xmark modal__close-icon" data-modal-id="modalOne"></i>
+        </div>
+        <div class="modal__body">
+            <p class="modal__message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium architecto doloremque exercitationem fugiat fugit magnam pariatur quae reiciendis repellat.
+            </p>
+        </div>
+        <div class="modal__footer">
+            <button class="modal__btn modal__close-btn">
+                Close
+            </button>
+            <button class="modal__btn modal__save-btn">
+                Save
+            </button>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modalTwo">
+    <div class="modal__box">
+        <div class="modal__header">
+            <span class="modal__title">
+                Modal Two
+            </span>
+            <i class="fa-solid fa-xmark modal__close-icon" data-modal-id="modalOne"></i>
+        </div>
+        <div class="modal__body">
+            <p class="modal__message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium architecto doloremque exercitationem fugiat fugit magnam pariatur quae reiciendis repellat.
+            </p>
+        </div>
+        <div class="modal__footer">
+            <button class="modal__btn modal__close-btn">
+                Close
+            </button>
+            <button class="modal__btn modal__save-btn">
+                Save
+            </button>
+        </div>
+    </div>
+</div>
+<!--    scripts-->
+<script src="./js/script.js"></script>
+</body>
+</html>
